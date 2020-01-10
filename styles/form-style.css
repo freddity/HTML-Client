@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700i&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.text-input{
+    border-radius: 15px;
+    border-color: #000;
+}
+
+#div1{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-60%);
+}
+
+#div2{
+    width: 400px;
+    height: 500px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#div3{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: rgb(218, 220, 224);
+    border-style: solid;
+}
+
+#div4{
+    padding: 25px;
+}
+
+#div5{
+    background-color: lightblue;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 60px;
+}
+    #span-header-signin{
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 22px;
+    }
+
+#div6{
+    background-color: lawngreen;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 22px;
+}
+
+#div7{
+    background-color: lightcoral;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 22px;
+}
+    #form{
+        display: absolute;
+        justify-content: center;
+        align-items: center;   
+    }
+        .span-desc{
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            color: #000;
+        }
+        .textfield{
+            width: 250px;
+        }
+
+        #button,
+        #button:focus,
+        #button:active{
+        	border:1px outset #fff;
+        	background:none;
+        	outline:none;
+            padding:0;
+            border-radius: 8px;
+        }
+
+        #button{
+            width: 100%;
+            height: 30px;
+            margin-top: 30px;
+            background-color: #509560;
+        }
+
+        #button:hover{
+            background-color: #689473;
+        }
+
+        #button:active{
+            background-color: #7e9b85;
+        }
+
